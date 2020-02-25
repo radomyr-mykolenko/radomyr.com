@@ -1,0 +1,226 @@
+﻿html {
+    font-size: 15px;
+    font-family: Arial;
+    /*color: #3c3c3c;*/
+    color: rgb(83, 82, 82);
+}
+body{
+    background-image:url(images/backimage.jpg);      
+}
+.header {
+    width: 900px;
+    height: 55px;
+    margin: 0 auto;
+    background-color: aqua;  
+    text-align: center;
+    border-radius: 10px 10px 0 0;
+}
+#top_menu_bar {
+    width: 896px;
+    height: 30px;
+    padding:2px;
+    margin: 0 auto;
+    background-color: aqua;
+    font-size:1.5rem;
+}
+.left_top_menu_item {
+    padding: 0px 6px;
+    text-align: center;
+    float: left;
+    color: lightyellow;
+    font-weight:bold;
+    text-shadow: 1px 1px 5px #333;
+}
+    .left_top_menu_item:hover, .visited_left_top_menu_item {
+        color: lightyellow;
+        text-shadow: 1px 1px 5px #8f8d8d;
+    }
+ 
+#first_item_left_top_Ukr_menu::after {
+    content: "Про авто";
+}
+#first_item_left_top_Rus_menu::after {
+    content: "Про авто";
+}
+#first_item_left_top_Eng_menu::after {
+    content: "About cars";
+}
+
+#secont_item_left_top_Ukr_menu::after {
+    content:"Про конструктори";
+}
+#secont_item_left_top_Rus_menu::after {
+    content: "Про конструкторы";
+}
+#secont_item_left_top_Eng_menu::after {
+    content: "About construction toys";
+}
+
+#third_item_left_top_Ukr_menu::after {
+    content: "Студентські роботи";
+}
+#fourth_item_left_top_Ukr_menu::after {
+    content:"Зразки документів";
+}
+
+.right_top_menu_item {
+    padding: 0px 4px;
+    text-align: center;
+    float: right;
+    color: #8f8d8d;
+    font-size: 1.2rem;
+    font-weight: normal;
+    /*text-shadow: 1px 1px 5px #333;*/
+}
+    .right_top_menu_item:hover, .visited_right_top_menu_item {
+        text-shadow: none;
+        color: white;
+
+    }
+#site_logo {
+        padding: 10px;
+        float: left;
+    }
+#site_logo span{
+    font-family:Arial;
+    font-size:2rem;
+    color:white;
+    font-weight:bold;
+    text-shadow: 1px 1px 5px #333;
+}
+#text_near_the_logo {
+    width:600px;
+    position: relative;
+    padding: 10px;
+    top:10px;
+    float: left;
+    text-align:left;
+}
+    #text_near_the_logo span {
+        font-family: Arial;
+        font-size: 1rem;
+        color: white;
+        font-weight: normal;
+        text-shadow: 1px 1px 2px #333;
+       
+    }
+#text_in_the_div_near_the_logo_ukr::after {
+    content: "Персональний блог, а також багато корисної та цікавої інформації про все підряд";
+}
+#text_in_the_div_near_the_logo_eng::after {
+    content: "Site about some interesting things happened in my life";
+}
+#text_in_the_div_near_the_logo_rus::after {
+    content: "Персональный блог, а также всякая интересная и полезная информация";
+}
+
+.main {
+    width: 900px;
+    height: 800px;
+    margin: 0 auto;
+}
+.two {
+    width: 192px;
+    height: 796px;
+    /*margin: 0 auto;*/
+    padding: 4px 4px;
+    background-color: chartreuse;
+    float: left;
+}
+.three {
+    width: 692px;
+    height: 796px;
+    /*margin: 0 auto;*/
+    padding: 4px 4px;
+    background-color: white;
+    float: left;
+}
+.one_column_content {
+    width: 860px;
+    min-height:796px;
+    margin: 0 auto;
+    padding: 4px 20px;
+    background-color: white;
+    text-align:left;
+}
+.footer {
+    width: 890px;
+    height: 24px;
+    padding:10px 5px;
+    margin: 0 auto;
+    background-color: aquamarine;
+    border-radius: 0px 0px 10px 10px;
+    color: white;
+    font-weight: normal;
+    text-shadow: 1px 1px 2px #333;
+        text-align:center;
+}
+#footer_text_ukr::after {
+    content: "2019-2020 © radomyr.com - Всі права захищені";
+}
+#footer_text_eng::after {
+    content: "2019-2020 © radomyr.com - All rights are reserved. All trademarks are the property of their respective owners";
+}
+#footer_text_rus::after {
+    content: "2019-2020 © radomyr.com - Все права защищены";
+}
+
+div {
+    box-shadow: rgb(128, 128, 128) 4px 10px 10px;    
+}
+    div div {
+        box-shadow:none;
+    }
+.article_images {
+    margin: 3px 30px;
+}
+p {
+    margin-left: 20px;
+   
+}
+.left_banner {
+    width:200px;
+    height:300px;
+    position:fixed;
+    left:100px;
+    top:20px;
+    background-color:lightyellow;
+}
+.content_preview {
+    min-height: 80px;
+    min-width: 32%;
+    max-width: 40%;
+    padding: 7px 18px;
+    margin: 10px 5px 30px 30px;
+    border-radius: 8px;
+    border-left: 10px solid chartreuse;
+    box-shadow: 2px -2px 5px 0 rgba(0,0,0,.1), -2px -2px 5px 0 rgba(0,0,0,.1), 2px 2px 5px 0 rgba(0,0,0,.1), -2px 2px 5px 0 rgba(0,0,0,.1);    
+    letter-spacing: normal;
+    float: left;
+}
+    .content_preview:hover {
+        box-shadow: 2px -2px 5px 0 rgba(0,0,0,.2), -2px -2px 5px 0 rgba(0,0,0,.2), 2px 2px 5px 0 rgba(0,0,0,.2), -2px 2px 5px 0 rgba(0,0,0,.2);
+    }
+.image_preview {
+    width:90px;
+    height:76px;
+    float:left;
+    /*background-color:burlywood;*/
+    margin:0px 5px 4px 0px;
+}
+.descriprion_preview {
+text-align:left;
+}
+    .descriprion_preview .data_in_preview {
+        font-size: 0.8em;
+        color:gray;
+    }
+    .descriprion_preview .text_in_preview {
+        font-size: 1.2em;
+        font-weight:normal;
+    }
+.image_center{
+    text-align:center;
+    margin-bottom:10px;
+}
+
