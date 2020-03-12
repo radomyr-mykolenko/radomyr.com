@@ -93,6 +93,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="articles\200303_kudy_podilys_masky_ukr.html" />
+    <Content Include="articles\200312_perehrestya_na_pochajnij.html" />
     <Content Include="articles\articles_ukr.html" />
     <Content Include="auto\about_autos_eng.html" />
     <Content Include="auto\about_autos_rus.html" />
