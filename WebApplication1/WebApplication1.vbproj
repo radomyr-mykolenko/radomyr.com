@@ -108,6 +108,8 @@
     <Content Include="DocsSamples\zayava_pro_znyattya_z_obliku_advokata_jak_platnyka_podatkiv_zrazok_ukr.html" />
     <Content Include="eng_main.html" />
     <Content Include="index.html" />
+    <Content Include="labelcontent\list_of_labels.html" />
+    <Content Include="labelcontent\mediocyd_dezinfekciya.html" />
     <Content Include="plastic_bricks\about_plastic_bricks_eng.html" />
     <Content Include="plastic_bricks\about_plastic_bricks_rus.html" />
     <Content Include="plastic_bricks\about_plastic_bricks_ukr.html" />
