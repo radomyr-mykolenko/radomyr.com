@@ -176,7 +176,11 @@ div {
 }
 p {
     margin-left: 20px;
-   
+      
+}
+.p_text_in_article {
+    text-align: justify;
+    text-indent: 30px;
 }
 .left_banner {
     width:200px;
