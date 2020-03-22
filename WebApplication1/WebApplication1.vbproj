@@ -115,7 +115,10 @@
     <Content Include="plastic_bricks\about_plastic_bricks_ukr.html" />
     <Content Include="rus_main.html" />
     <Content Include="studentworks\ekonomichna_sutnist_analitychnogo_zabezpechennya_prognozuvannya_bankrutstva_u_systemi_antykryzovogo_ypravlinnya1.html" />
+    <Content Include="studentworks\istoriya_platy_za_zemlu.html" />
+    <Content Include="studentworks\ponyattya_zavdannya_ta_vydy_diagnostyky_zagrozy_bankrutstva_pidpryemstva_v_suchasnyh_umovah.html" />
     <Content Include="studentworks\studentski_roboty.html" />
+    <Content Include="studentworks\zavdannya_ekonomichnogo_analizu_prognozuvannya_bankrutstva_v_systemi_antykryzovogo_upravlinnya.html" />
     <Content Include="StyleSheet1.css" />
     <Content Include="Web.config" />
   </ItemGroup>
