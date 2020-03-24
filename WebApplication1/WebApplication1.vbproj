@@ -94,6 +94,7 @@
   <ItemGroup>
     <Content Include="articles\200303_kudy_podilys_masky_ukr.html" />
     <Content Include="articles\200312_perehrestya_na_pochajnij.html" />
+    <Content Include="articles\200323_odyn_den_mogo_karantinu.html" />
     <Content Include="articles\articles_ukr.html" />
     <Content Include="auto\about_autos_eng.html" />
     <Content Include="auto\about_autos_rus.html" />
@@ -107,6 +108,38 @@
     <Content Include="DocsSamples\Lyst_pro_pogashennya_zaborgovanosti_orendarem_zrazok.html" />
     <Content Include="DocsSamples\zayava_pro_znyattya_z_obliku_advokata_jak_platnyka_podatkiv_zrazok_ukr.html" />
     <Content Include="eng_main.html" />
+    <Content Include="images\backimage.jpg" />
+    <Content Include="images\cd_amin_1.jpg" />
+    <Content Include="images\cd_amin_2.jpg" />
+    <Content Include="images\cd_amin_60x58px.jpg" />
+    <Content Include="images\crossroad_87x60px.jpg" />
+    <Content Include="images\dezinfekcia_epicentr.jpg" />
+    <Content Include="images\dezinfekcia_epicentr2.jpg" />
+    <Content Include="images\de_podilys_maski.jpg" />
+    <Content Include="images\de_podilys_maski2.jpg" />
+    <Content Include="images\megane_main_90x61px.jpg" />
+    <Content Include="images\odin_den_karantiny.jpg" />
+    <Content Include="images\pochayna_crossroad.jpg" />
+    <Content Include="images\renault_megane_body_w405x304.jpg" />
+    <Content Include="images\renault_megane_door_w405x304.jpg" />
+    <Content Include="images\renault_megane_engine_w790x593.jpg" />
+    <Content Include="images\renault_megane_fuel_consumption_w600x293.jpg" />
+    <Content Include="images\renault_megane_general_w600.jpg" />
+    <Content Include="images\renault_megane_hole_on_body_w405x540.jpg" />
+    <Content Include="images\renault_megane_main_view_w300x179.jpg" />
+    <Content Include="images\renault_megane_main_view_w350x208.jpg" />
+    <Content Include="images\renault_megane_main_view_w600x357.jpg" />
+    <Content Include="images\renault_megane_mileage_11111_w273x205.jpg" />
+    <Content Include="images\renault_megane_mileage_16666_w273x205.jpg" />
+    <Content Include="images\renault_megane_optics_w200x275.jpg" />
+    <Content Include="images\renault_megane_plastic_in_saloon_w320x229.jpg" />
+    <Content Include="images\renault_megane_torpedo_w810x551.jpg" />
+    <Content Include="images\renault_megane_without_wheels_w273x205.jpg" />
+    <Content Include="images\ris1_1.jpg" />
+    <Content Include="images\ris1_2.jpg" />
+    <Content Include="images\septik_mediocyd1.jpg" />
+    <Content Include="images\septik_mediocyd2.jpg" />
+    <Content Include="images\septik_mediocyd_60px.jpg" />
     <Content Include="index.html" />
     <Content Include="labelcontent\list_of_labels.html" />
     <Content Include="labelcontent\mediocyd_dezinfekciya.html" />
@@ -170,9 +203,7 @@
       <DependentUpon>Web.config</DependentUpon>
     </None>
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="images\" />
-  </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
