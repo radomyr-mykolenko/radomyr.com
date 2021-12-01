@@ -108,6 +108,8 @@
     <Content Include="DocsSamples\Lyst_pro_pogashennya_zaborgovanosti_orendarem_zrazok.html" />
     <Content Include="DocsSamples\zayava_pro_znyattya_z_obliku_advokata_jak_platnyka_podatkiv_zrazok_ukr.html" />
     <Content Include="eng_main.html" />
+    <Content Include="goods\black_decker_steam_mop_FSMH13E5_ukr.html" />
+    <Content Include="goods\list_of_goods.html" />
     <Content Include="images\backimage.jpg" />
     <Content Include="images\cd_amin_1.jpg" />
     <Content Include="images\cd_amin_2.jpg" />
@@ -203,9 +205,7 @@
       <DependentUpon>Web.config</DependentUpon>
     </None>
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="goods\" />
-  </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
