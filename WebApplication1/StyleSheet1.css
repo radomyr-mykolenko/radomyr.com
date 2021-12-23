@@ -223,6 +223,10 @@ text-align:left;
         font-size: 1.2em;
         font-weight:normal;
     }
+    .descriprion_preview .text_in_preview_smaller {
+        font-size: 0.8em;
+        font-weight: normal;
+    }
 .image_center{
     text-align:center;
     margin-bottom:10px;
