@@ -156,13 +156,13 @@ body{
         text-align:center;
 }
 #footer_text_ukr::after {
-    content: "2019-2020 © radomyr.com - Всі права захищені";
+    content: "2019-2021 © radomyr.com - Всі права захищені";
 }
 #footer_text_eng::after {
-    content: "2019-2020 © radomyr.com - All rights are reserved. All trademarks are the property of their respective owners";
+    content: "2019-2021 © radomyr.com - All rights are reserved. All trademarks are the property of their respective owners";
 }
 #footer_text_rus::after {
-    content: "2019-2020 © radomyr.com - Все права защищены";
+    content: "2019-2021 © radomyr.com - Все права защищены";
 }
 
 div {
@@ -230,5 +230,13 @@ text-align:left;
 .image_center{
     text-align:center;
     margin-bottom:10px;
+}
+.braces_for_li:before {
+    content: ") ";
+}
+
+.name_of_articles {
+    font-weight:bold;
+    color:black;
 }
 
